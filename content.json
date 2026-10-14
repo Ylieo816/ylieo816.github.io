@@ -1,0 +1,187 @@
+{
+  "projects": [
+    {
+      "name": "Agaruda",
+      "title": "Enterprise AI & data center platform",
+      "url": "https://agaruda.io/solutions",
+      "role": "Founding Engineer · Senior Software Engineer & TPM",
+      "desc": "Led execution across five teams and 15 people, connecting Backend/Infra, Frontend, AI, 3D/Omniverse, and Design.",
+      "decision": "Designed multi-agent orchestration, tenant-aware state, and hybrid deployment architecture.",
+      "outcome": "Built platform capabilities across 10 core services and 50+ infrastructure components.",
+      "tech": "FastAPI · Kubernetes · vLLM · pgvector",
+      "image": "agaruda-diagram.svg",
+      "labels": [
+        "Multi-agent orchestration / RAG / MCP",
+        "Multi-tenant API / authorization",
+        "Hybrid cloud & on-premises infrastructure"
+      ],
+      "dates": "Jun 2025 – Present"
+    },
+    {
+      "name": "Proto",
+      "title": "AI customer experience SaaS",
+      "url": "https://proto.cx/",
+      "role": "Full Stack Engineer",
+      "desc": "Built AI and full-stack features across customer conversations, analytics, billing, and integrations.",
+      "decision": "Optimized analytics queries and developed AI usage tracking for a multi-tenant platform.",
+      "outcome": "Delivered 15+ features; reduced analytics API database round trips by approximately 80%.",
+      "tech": "React · FastAPI · PostgreSQL · RAG",
+      "image": "proto-diagram.svg",
+      "labels": [
+        "Inbox / Webchat / Analytics",
+        "AI chat analysis / usage tracking",
+        "Multi-tenant services & data"
+      ],
+      "dates": "Aug 2024 – Jun 2025"
+    },
+    {
+      "name": "Dell",
+      "title": "VxRail & cloud lifecycle management",
+      "url": "https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm",
+      "role": "Software Engineer II",
+      "desc": "Worked on multi-cluster management and upgrade reliability for hybrid VMware/AWS infrastructure.",
+      "decision": "Improved REST APIs and storage workflows, with root-cause analysis of customer-reported issues.",
+      "outcome": "Improved upgrade success to 84%; resolved 50+ customer issues.",
+      "tech": "Spring Boot · Django · Go · RKE2",
+      "image": "dell-diagram.svg",
+      "labels": [
+        "Multi-cluster management",
+        "Upgrade & storage workflows",
+        "VMware / AWS / RKE2"
+      ],
+      "dates": "May 2022 – Mar 2024"
+    },
+    {
+      "name": "Garmin",
+      "title": "Automotive software & diagnostics",
+      "url": "https://www.toyota.com.tw/Drive+/2.0/",
+      "role": "Software Engineer",
+      "desc": "Developed diagnostic and logging tools for Toyota in-vehicle systems.",
+      "decision": "Built a multithreaded Linux diagnostic application and searchable Java/Shell logging service.",
+      "outcome": "Monitored 23 hardware components; reduced factory troubleshooting time by 20%.",
+      "tech": "Linux · Java · Shell · Hardware integration",
+      "image": "garmin-diagram.svg",
+      "labels": [
+        "In-vehicle radio / battery / DTV",
+        "23-component diagnostic monitoring",
+        "Searchable logs & maintenance tools"
+      ],
+      "dates": "Jun 2021 – Apr 2022"
+    },
+    {
+      "name": "約美 YueMe",
+      "title": "Beauty booking & member management",
+      "url": "https://beautiful.ooink.ai/",
+      "role": "Product Building",
+      "desc": "A product for beauty-service appointments and member management.",
+      "decision": null,
+      "outcome": null,
+      "tech": "Booking · Member management",
+      "image": "beautiful.png",
+      "labels": [],
+      "dates": null
+    },
+    {
+      "name": "XChange Xtalent",
+      "title": "Mentorship & talent platform",
+      "url": "https://xtalent.xchange.com.tw/",
+      "role": "Team Lead & Backend Engineer",
+      "desc": "Directly led a distributed team to deliver cloud-based mentorship services.",
+      "decision": "Coordinated backend development, Scrum execution, and cross-functional delivery.",
+      "outcome": "Delivered two customized SaaS platforms within budget and schedule.",
+      "tech": "AWS · Backend architecture · Scrum",
+      "image": "xtalent.webp",
+      "labels": [
+        "Mentors / mentees / talent",
+        "Mentorship workflows & APIs",
+        "Cloud-based SaaS services"
+      ],
+      "dates": "Jul 2022 – Present"
+    }
+  ],
+  "papers": [
+    {
+      "id": "rgpo",
+      "title": "RGPO: Ranking-Guided Preference Optimization for Reliable Clinical Reasoning",
+      "year": "2026",
+      "venue": "IEEE Transactions on Artificial Intelligence",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11495200",
+      "image": "rpro-0.png",
+      "caption": "Earlier RPRO preprint workflow · published RGPO figure pending",
+      "summary": "RGPO refines clinical reasoning through task-adaptive templates and ranking-guided preference optimization. Groupwise ranking with the Bradley–Terry model and KL regularization guides learning. Evaluation includes PubMedQA, MedQA-USMLE, and a clinical dataset from Far Eastern Memorial Hospital.",
+      "verified": true
+    },
+    {
+      "id": "triage",
+      "title": "A Novel Deep Learning–Based System for Triage in the Emergency Department Using Electronic Medical Records: Retrospective Cohort Study",
+      "year": "2021",
+      "venue": "Journal of Medical Internet Research",
+      "url": "https://www.jmir.org/2021/12/e27008/",
+      "image": "triage.jpg",
+      "caption": "Original system overview · JMIR, Figure 1",
+      "summary": "This study combines structured clinical information and free-text records to estimate hospital admission needs. A text-based representation feeds complementary convolutional and recurrent models. The combined approach was evaluated using US emergency-visit records and data from National Taiwan University Hospital.",
+      "verified": true
+    },
+    {
+      "id": "context",
+      "title": "An efficient context-aware screening system for Alzheimer's disease based on neuropsychology test",
+      "year": "2021",
+      "venue": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-021-97642-4",
+      "image": "context-0.png",
+      "caption": "Original model architecture · Scientific Reports, Figure 1",
+      "summary": "A neural screening approach analyzes speech transcripts from neuropsychological tests to distinguish cognitive groups. Attention-based representations reduce manual preprocessing and feature selection. Experiments on English and Chinese datasets examine classification of Alzheimer's disease and mild cognitive impairment against healthy controls.",
+      "verified": true
+    },
+    {
+      "id": "admission",
+      "title": "A System for Predicting Hospital Admission at Emergency Department Based on Electronic Health Record Using Convolution Neural Network",
+      "year": "2020",
+      "venue": "IEEE International Conference on Systems, Man, and Cybernetics",
+      "url": "https://doi.org/10.1109/SMC42975.2020.9282952",
+      "image": "admission-diagram.svg",
+      "caption": "Simplified system flow redrawn from the abstract",
+      "summary": "Emergency records are transformed into image representations for a convolutional classifier that predicts hospital admission. The approach was evaluated on 118,602 US emergency department visits, reporting an AUROC of 0.86 and accuracy of 0.77.",
+      "verified": true
+    },
+    {
+      "id": "energy",
+      "title": "A Demand Side Management with Appliance Controllability Analysis in Smart Home",
+      "year": "2020",
+      "venue": "International Conference on Smart Grids and Energy Systems",
+      "url": "https://doi.org/10.1109/SGES51519.2020.00104",
+      "image": "energy-diagram.svg",
+      "caption": "Topic illustration · original architecture figure pending",
+      "summary": "As global energy consumption keeps increasing, the energy efficiency has become an important issue. Demand-side management (DSM) system is a technology that can be used to solve this issue. In many houses, there are some time periods in a day when inhabitants have high electricity demands, and these peaks will cause a burden on the smart grid. In order to solve energy efficiency problem, the demand-side management system can help users to postpone non-immediately needed demands to off-peak hour subject to the mechanism of real-time pricing policy. In addition, with the development of Internet of Things technology, the devices which have internet module can form a home area network, enabling DSM to monitor the entire state of the house and to control appliances. However, due to the uncertainty of user behavior, it is hard to find the good control policy for energy saving, considering that different users may have various habits and the appliance usage tends to be irregular. Therefore, the ability of DSM will be restricted in order to avoid disturbing the user comfort. In the proposed work, a smart home demand-side management system within home area network was implemented, including multiple agents with reinforcement learning for managing different appliances, energy storage system, and renewable energy. The proposed system also keeps the user's comfort based on the activity of user and controllability of appliances. As a result, the simulation studies show that the proposed DSM system can reduce 42.36% peak demand value and achieve 32.79% cost reduction. The cost reduction value can be further increased by 22.41% when the concept of energy self-awareness is combined into demand-side management system.",
+      "verified": true,
+      "summary_source": "Full abstract provided by Leo in chat",
+      "abstract": "As global energy consumption keeps increasing, the energy efficiency has become an important issue. Demand-side management (DSM) system is a technology that can be used to solve this issue. In many houses, there are some time periods in a day when inhabitants have high electricity demands, and these peaks will cause a burden on the smart grid. In order to solve energy efficiency problem, the demand-side management system can help users to postpone non-immediately needed demands to off-peak hour subject to the mechanism of real-time pricing policy. In addition, with the development of Internet of Things technology, the devices which have internet module can form a home area network, enabling DSM to monitor the entire state of the house and to control appliances. However, due to the uncertainty of user behavior, it is hard to find the good control policy for energy saving, considering that different users may have various habits and the appliance usage tends to be irregular. Therefore, the ability of DSM will be restricted in order to avoid disturbing the user comfort. In the proposed work, a smart home demand-side management system within home area network was implemented, including multiple agents with reinforcement learning for managing different appliances, energy storage system, and renewable energy. The proposed system also keeps the user's comfort based on the activity of user and controllability of appliances. As a result, the simulation studies show that the proposed DSM system can reduce 42.36% peak demand value and achieve 32.79% cost reduction. The cost reduction value can be further increased by 22.41% when the concept of energy self-awareness is combined into demand-side management system.",
+      "abstract_type": "verbatim_user_supplied"
+    },
+    {
+      "id": "speech",
+      "title": "An Automatic Assessment System for Alzheimer’s Disease Based on Speech Using Feature Sequence Generator and Recurrent Neural Network",
+      "year": "2019",
+      "venue": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-019-56020-x",
+      "image": "speech-0.png",
+      "caption": "Original system flow · Scientific Reports, Figure 1",
+      "summary": "Speech is converted into a learned feature sequence and classified by a recurrent neural network for Alzheimer's assessment. The system automates feature generation instead of relying on hand-selected speech statistics. Evaluation on 120 speech samples reports an AUROC of 0.838.",
+      "verified": true
+    },
+    {
+      "id": "screening",
+      "title": "A Novel Screening System for Alzheimer's Disease Based on Speech Transcripts Using Neural Network",
+      "year": "2019",
+      "venue": "IEEE International Conference on Systems, Man, and Cybernetics",
+      "url": "https://doi.org/10.1109/SMC.2019.8914628",
+      "image": "screening-diagram.svg",
+      "caption": "Topic illustration · original architecture figure pending",
+      "summary": "Alzheimer's disease has become one of the biggest challenges in the healthcare system worldwide. Researches have shown that Alzheimer's disease is the sixth leading cause of death in the United States and even the fifth leading cause among people aged 65 and older. Moreover, the number of patients is escalating rapidly in recent years, which also increases the burden on the healthcare system. Therefore, a screening system that can help the doctor to diagnose Alzheimer's disease is demanded. In this paper, we proposed a screening system based on the transcripts of speeches spoken by subjects undertaking a neuropsychology test. While most of the related studies have utilized extracted syntactic and semantic features and relied on a feature selection process, the proposed system used word vectors as the representation of a spoken speech, and Recurrent Neural Network together with attention mechanism as the classifier. Using ten times 10-fold cross validation on an open dataset with 242 speeches samples spoken by healthy controls and 257 samples spoken by subjects with Alzheimer's disease, a mean accuracy of 0.835 is achieved in our work, which is outperforming the current state-of-the-art while requiring less effort.",
+      "verified": true,
+      "summary_source": "Full abstract provided by Leo in chat",
+      "abstract": "Alzheimer's disease has become one of the biggest challenges in the healthcare system worldwide. Researches have shown that Alzheimer's disease is the sixth leading cause of death in the United States and even the fifth leading cause among people aged 65 and older. Moreover, the number of patients is escalating rapidly in recent years, which also increases the burden on the healthcare system. Therefore, a screening system that can help the doctor to diagnose Alzheimer's disease is demanded. In this paper, we proposed a screening system based on the transcripts of speeches spoken by subjects undertaking a neuropsychology test. While most of the related studies have utilized extracted syntactic and semantic features and relied on a feature selection process, the proposed system used word vectors as the representation of a spoken speech, and Recurrent Neural Network together with attention mechanism as the classifier. Using ten times 10-fold cross validation on an open dataset with 242 speeches samples spoken by healthy controls and 257 samples spoken by subjects with Alzheimer's disease, a mean accuracy of 0.835 is achieved in our work, which is outperforming the current state-of-the-art while requiring less effort.",
+      "abstract_type": "verbatim_user_supplied"
+    }
+  ]
+}
